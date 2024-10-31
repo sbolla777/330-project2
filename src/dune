@@ -1,0 +1,9 @@
+(library
+ (name p2)
+ (modules ntree db debugUtils)
+ (libraries qcheck))
+
+(env
+ (dev
+  (flags
+   (:standard -w -A))))
